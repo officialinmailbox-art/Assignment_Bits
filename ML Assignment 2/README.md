@@ -223,9 +223,9 @@ This approach considers class discrimination, precision-recall balance and overa
 ## 9. Project Folder Structure
 
 ```text
-ML-Assn-2/
+ML Assignment 2/
 │
-├── MLASS-2.ipynb
+├── 2026aj05499.ipynb
 ├── adult_full.csv
 ├── test_data.csv
 ├── app.py
