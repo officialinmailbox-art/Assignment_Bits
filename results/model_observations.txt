@@ -1,0 +1,68 @@
+OBSERVATIONS ON MODEL PERFORMANCE
+================================================================================
+
+ML Model Name: Logistic Regression
+Observation: Logistic Regression provides a good baseline for income classification. It is computationally efficient and identifies relationships between demographic features and income. However, it may not capture complex non-linear relationships.
+
+Evaluation Metrics:
+Accuracy: 0.8450
+AUC: 0.9020
+Precision: 0.7344
+Recall: 0.5870
+F1: 0.6525
+MCC: 0.5601
+
+--------------------------------------------------------------------------------
+ML Model Name: Decision Tree
+Observation: Decision Tree identifies complex patterns and non-linear relationships between features. It is easy to interpret and understand. The maximum depth of 8 helps reduce overfitting.
+
+Evaluation Metrics:
+Accuracy: 0.8524
+AUC: 0.9004
+Precision: 0.7515
+Recall: 0.6044
+F1: 0.6700
+MCC: 0.5820
+
+--------------------------------------------------------------------------------
+ML Model Name: KNN
+Observation: KNN classifies individuals using their seven nearest neighbours. StandardScaler improves distance-based calculations. However, high-dimensional categorical features may affect its performance, and prediction can be computationally expensive.
+
+Evaluation Metrics:
+Accuracy: 0.8302
+AUC: 0.8735
+Precision: 0.6781
+Recall: 0.5995
+F1: 0.6364
+MCC: 0.5278
+
+--------------------------------------------------------------------------------
+ML Model Name: Naive Bayes (Gaussian)
+Observation: Gaussian Naive Bayes is fast and uses probability-based classification. However, its assumptions of conditional independence and Gaussian-distributed features may not accurately represent all features in the Adult dataset.
+
+Evaluation Metrics:
+Accuracy: 0.6193
+AUC: 0.8389
+Precision: 0.3877
+Recall: 0.9242
+F1: 0.5462
+MCC: 0.3891
+
+--------------------------------------------------------------------------------
+ML Model Name: SVM (RBF)
+Observation: SVM with an RBF kernel can identify complex non-linear decision boundaries. It can provide good classification performance but requires more computational time and memory for larger datasets.
+
+Evaluation Metrics:
+Accuracy: 0.8482
+AUC: 0.8957
+Precision: 0.7513
+Recall: 0.5794
+F1: 0.6542
+MCC: 0.5668
+
+--------------------------------------------------------------------------------
+
+OVERALL WINNER
+================================================================================
+Winner: Decision Tree
+Average Score: 0.7175
