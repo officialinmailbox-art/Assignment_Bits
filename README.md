@@ -259,45 +259,9 @@ ML Assignment 2/
 
 ---
 
-## 11. Installation and Execution
-
-### Step 1: Clone the Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### Step 2: Open the Project Folder
-
-```bash
-cd ML-Assn-2
-```
-
-### Step 3: Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Run the Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open `MLASS-2.ipynb` and execute the cells.
-
-### Step 5: Run the Streamlit Application
-
-If `app.py` is included:
-
-```bash
-streamlit run app.py
-```
-
 ---
 
-## 12. Requirements
+## 11. Requirements
 
 The project dependencies are listed in `requirements.txt`.
 
@@ -315,7 +279,7 @@ joblib
 
 ---
 
-## 13. Results and Output Files
+## 12. Results and Output Files
 
 The project generates the following output files:
 
@@ -328,17 +292,19 @@ The project generates the following output files:
 
 ---
 
-## 14. GitHub Repository
+## 13. GitHub Repository
 
 **Repository Name:** ML_Assignment-2
 
-**GitHub Repository Link:** YOUR_GITHUB_REPOSITORY_URL
+**GitHub Repository Link:** https://github.com/officialinmailbox-art/Assignment_Bits/tree/ML_Assignment
+
+**Streamlit app Link:** https://assignmentbits-ngaeuo3thxpnluqysgj2iz.streamlit.app/
 
 The repository contains the Jupyter Notebook, dataset (if permitted), trained models, evaluation results, source code and project documentation.
 
 ---
 
-## 15. Conclusion
+## 14. Conclusion
 
 This project demonstrates the implementation and comparison of five supervised machine learning classification algorithms using the Adult Census Income Dataset.
 
@@ -350,12 +316,3 @@ The overall best-performing model is selected using the average of AUC, F1 Score
 
 ---
 
-## 16. Academic Submission
-
-**Assignment:** Machine Learning Assignment 2  
-**Institution:** BITS Pilani  
-**Project:** Adult Census Income Classification  
-**Implementation:** Python and Scikit-learn  
-**Submission:** Jupyter Notebook and GitHub Repository
-
----
