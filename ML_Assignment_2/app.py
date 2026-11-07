@@ -44,7 +44,9 @@ st.info(
 # MODEL CONFIGURATION
 # --------------------------------------------------
 
-MODEL_DIR = "models"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 MODEL_FILES = {
     "Logistic Regression": "logistic_regression.pkl",
