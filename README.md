@@ -298,6 +298,8 @@ The project generates the following output files:
 
 **GitHub Repository Link:** https://github.com/officialinmailbox-art/Assignment_Bits/tree/ML_Assignment
 
+**Streamlit app Link:** https://assignmentbits-ngaeuo3thxpnluqysgj2iz.streamlit.app/
+
 The repository contains the Jupyter Notebook, dataset (if permitted), trained models, evaluation results, source code and project documentation.
 
 ---
