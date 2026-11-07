@@ -20,7 +20,11 @@ from sklearn.metrics import (
 )
 
 # Load training dataset
-df = pd.read_csv("adult_full.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+df = pd.read_csv(
+    os.path.join(BASE_DIR, "adult_train.csv")
+)
 
 # Clean column names and values
 df.columns = df.columns.str.strip()
