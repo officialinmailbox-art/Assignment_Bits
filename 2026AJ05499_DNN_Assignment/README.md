@@ -31,3 +31,6 @@ The notebooks append **one row per run** (per seed). The `results.csv` delivered
 - Adding problem: GRU solves T=50-400 (3/3); LSTM fails from T=200; RNN from T=100.
 - Transformer HAR: 0.9313 (no PE), 0.9104 (sinusoidal), 0.9092 (learned).
 - Char LM: 1.6753 nats = 2.417 bits/char validation.
+
+## GitHub repository
+[Assignment_Bits / 2026AJ05499_DNN_Assignment (branch `DNN_Assignment`)](https://github.com/officialinmailbox-art/Assignment_Bits/tree/DNN_Assignment/2026AJ05499_DNN_Assignment)
