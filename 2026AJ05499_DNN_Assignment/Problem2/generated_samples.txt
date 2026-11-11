@@ -1,0 +1,64 @@
+===== temperature 0.2, top-k 20, 500 characters =====
+ the shall son,
+And the brother of the shall be so man of the dead.
+
+KING RICHARD III:
+And the father of the stand of the consul of the man
+The shall so the crown of the stand of the consul the crown.
+
+CORIOLANUS:
+What is the come of the son, when that the seems of the charge,
+And with the confess of the proverself and his death,
+And the shall be common of the countent of the commons
+And the confess of the false of the countent.
+
+CORIOLANUS:
+And what is the comes of the comes of the crown.
+
+CORI
+
+===== temperature 0.8, top-k 20, 500 characters =====
+, if thou have being proves.
+
+GLOUCESTER:
+What words, must it be while seconing mine,
+As charging the suppiers do both cousing of there,
+I was and procee to canment: say wronged
+To much at the ere time of the kings,
+Should now, that I have is the world is with must of the good,
+And the has the conful soul, I know you, and it the way!
+She sorrow, these composion with in a charge,
+There is of and despierted to you these into
+Thing art their vilture this segrning will to his
+fair, but alieve me wou
+
+===== temperature 1.5, top-k 20, 500 characters =====
+, majurhes alm.
+
+CLIFFFORD:
+Ay! Out, how you!
+
+MARCIUS:
+Whech is?
+Your mether bd?
+
+FRIAR LAURENCE:
+As good or crering feel, I'll sha, he so.
+
+GlOUT:
+To loss e'elf. Farly facierious ye hour are.
+
+CAMILLO:
+Go. LYoUS:
+Bother, fier!
+
+CATES:
+Execuse
+Thought, though wwith upon us wipp and att
+pliking of your wothing helm, hot have he connter
+Alres hed marry'd: weere folstion. Lonk! O spare me but will such-tawsted
+Out teir my ours; gnoble; is tell provost solume?
+
+ROMEO:
+Make is sonstate lesS mords un
+

@@ -1,0 +1,35 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+P1_HAR,RNN,mean,128,0.8422,0.8388,,5190.0,0.214,,,"mean of seeds 11,22,33; acc std=0.0116; hidden=64; epochs=20; adam 1e-3; clip=1.0"
+P1_HAR,LSTM,mean,128,0.8973,0.8973,,19590.0,0.206,,,"mean of seeds 11,22,33; acc std=0.0221; hidden=64; epochs=20; adam 1e-3; clip=1.0"
+P1_HAR,GRU,mean,128,0.8896,0.8888,,14790.0,0.179,,,"mean of seeds 11,22,33; acc std=0.0046; hidden=64; epochs=20; adam 1e-3; clip=1.0"
+P1_HAR_sweep,GRU,mean,128,0.8646,0.8646,,1398.0,0.194,,,"mean of seeds 11,22,33; acc std=0.0219; hidden=16; epochs=20"
+P1_HAR_sweep,GRU,mean,128,0.8884,0.8887,,4326.0,0.193,,,"mean of seeds 11,22,33; acc std=0.0144; hidden=32; epochs=20"
+P1_HAR_sweep,GRU,mean,128,0.8896,0.8888,,14790.0,0.194,,,"mean of seeds 11,22,33; acc std=0.0046; hidden=64; epochs=20"
+P1_HAR_sweep,GRU,mean,128,0.8961,0.8965,,54150.0,0.241,,,"mean of seeds 11,22,33; acc std=0.0137; hidden=128; epochs=20"
+P1_HAR_sweep,LSTM,mean,128,0.8515,0.8519,,1830.0,0.202,,,"mean of seeds 11,22,33; acc std=0.0253; hidden=16; epochs=20"
+P1_HAR_sweep,LSTM,mean,128,0.8711,0.8711,,5702.0,0.202,,,"mean of seeds 11,22,33; acc std=0.003; hidden=32; epochs=20"
+P1_HAR_sweep,LSTM,mean,128,0.8973,0.8973,,19590.0,0.199,,,"mean of seeds 11,22,33; acc std=0.0221; hidden=64; epochs=20"
+P1_HAR_sweep,LSTM,mean,128,0.9083,0.9089,,71942.0,0.369,,,"mean of seeds 11,22,33; acc std=0.0091; hidden=128; epochs=20"
+P1_Adding,RNN,mean,50,,,0.0241,,,,,"mean of seeds 11,22,33; mse std=0.0155; solved(<0.05)=3/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,RNN,mean,100,,,0.1225,,,,,"mean of seeds 11,22,33; mse std=0.0248; solved(<0.05)=0/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,RNN,mean,200,,,0.1678,,,,,"mean of seeds 11,22,33; mse std=0.0009; solved(<0.05)=0/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,RNN,mean,400,,,0.1538,,,,,"mean of seeds 11,22,33; mse std=0.0005; solved(<0.05)=0/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,LSTM,mean,50,,,0.0046,,,,,"mean of seeds 11,22,33; mse std=0.0019; solved(<0.05)=3/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,LSTM,mean,100,,,0.0662,,,,,"mean of seeds 11,22,33; mse std=0.0497; solved(<0.05)=1/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,LSTM,mean,200,,,0.1684,,,,,"mean of seeds 11,22,33; mse std=0.0004; solved(<0.05)=0/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,LSTM,mean,400,,,0.1535,,,,,"mean of seeds 11,22,33; mse std=0.0001; solved(<0.05)=0/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,GRU,mean,50,,,0.0015,,,,,"mean of seeds 11,22,33; mse std=0.0002; solved(<0.05)=3/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,GRU,mean,100,,,0.0021,,,,,"mean of seeds 11,22,33; mse std=0.0008; solved(<0.05)=3/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,GRU,mean,200,,,0.0031,,,,,"mean of seeds 11,22,33; mse std=0.0008; solved(<0.05)=3/3; hidden=64; epochs=30; clip=1.0"
+P1_Adding,GRU,mean,400,,,0.0027,,,,,"mean of seeds 11,22,33; mse std=0.0005; solved(<0.05)=3/3; hidden=64; epochs=30; clip=1.0"
+P1_ablation,LSTM forget bias=0,mean,200,,,0.1685,,,,,"mean of seeds 11,22,33; mse std=0.0002; LSTM T=200 forget-gate bias initialisation; solved=0/3; epochs=30"
+P1_ablation,LSTM forget bias=1,mean,200,,,0.1684,,,,,"mean of seeds 11,22,33; mse std=0.0004; LSTM T=200 forget-gate bias initialisation; solved=0/3; epochs=30"
+P2_TaskA,Transformer_pos_none,mean,128,0.9313,0.9313,,407046.0,0.474,,,"mean of seeds 11,22,33; acc std=0.0089; f1 std=0.0082; patch=8; d=128; heads=4; layers=2; epochs=20; adamw 5e-4"
+P2_TaskA,Transformer_pos_sinusoidal,mean,128,0.9104,0.9106,,407046.0,0.488,,,"mean of seeds 11,22,33; acc std=0.0091; f1 std=0.0088; patch=8; d=128; heads=4; layers=2; epochs=20; adamw 5e-4"
+P2_TaskA,Transformer_pos_learned,mean,128,0.9092,0.909,,439814.0,0.472,,,"mean of seeds 11,22,33; acc std=0.0094; f1 std=0.0092; patch=8; d=128; heads=4; layers=2; epochs=20; adamw 5e-4"
+P2_TaskB,Transformer_LM_main,11,128,,,,,,1.6753,2.4169470020012804,d=128; layers=4; batch=64; 12 epochs x 250 steps; heads=4; causal_mask=True
+P2_TaskB,Transformer_LM_heads1,11,128,,,,,,1.970251,2.842471347006521,d=128; layers=4; batch=64; 4 epochs x 250 steps; heads=1
+P2_TaskB,Transformer_LM_heads4,11,128,,,,,,1.985907,2.865058180566679,d=128; layers=4; batch=64; 4 epochs x 250 steps; heads=4
+P2_TaskB,Transformer_LM_heads8,11,128,,,,,,1.995218,2.878491114092396,d=128; layers=4; batch=64; 4 epochs x 250 steps; heads=8
+P2_TaskB,Transformer_LM_with_mask,11,128,,,,,,1.985907,2.865058180566679,d=128; layers=4; batch=64; 4 epochs x 250 steps; causal_mask=True
+P2_TaskB,Transformer_LM_no_mask,11,128,,,,,,0.024552,0.035421048643905835,d=128; layers=4; batch=64; 4 epochs x 250 steps; causal_mask=False (leakage); with causal mask at eval: 7.003238 nats = 10.103537 bpc
